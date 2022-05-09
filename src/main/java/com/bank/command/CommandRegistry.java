@@ -29,6 +29,7 @@ public class CommandRegistry {
         registerCommand(new DepositCommand());
         registerCommand(new WithdrawCommand());
         registerCommand(new TransferCommand());
+        registerCommand(new CheckBalanceCommand());
 
         // premium version
         try {
