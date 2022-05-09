@@ -14,7 +14,8 @@ public class Main {
         String bankcode = "52010519"; // welche Bank sind wir?
         assert bankcode.length() == 8; // Überprüfe ob der Bankcode valide ist.
         bank = new Bank(bankcode);
-        CommandRegistry.getInstance();
         System.out.println("Herzlich Willkommen!");
+        CommandRegistry.getInstance();
+
     }
 }

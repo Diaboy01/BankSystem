@@ -2,7 +2,7 @@ package com.bank.command;
 
 import java.util.Scanner;
 
-public class Console extends Thread {
+public class Console extends Thread{
 
     private final Scanner scanner;
     public Console() {
