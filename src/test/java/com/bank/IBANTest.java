@@ -19,22 +19,18 @@ public class IBANTest {
 
         if(!iban.getCountry().equals(country)) {
             Assert.assertEquals(country, iban.getCountry());
-            //Assertions.assertEquals(country, iban.getCountry());
         }
 
         if(!iban.getCheckSum().equals(String.valueOf(checkSum))) {
             Assert.assertEquals(String.valueOf(checkSum), iban.getCheckSum());
-            //Assertions.assertEquals(String.valueOf(checkSum), iban.getCheckSum());
         }
 
         if(!iban.getBankNumber().equals(bank)) {
             Assert.assertEquals(bank, iban.getBankNumber());
-            //Assertions.assertEquals(bank, iban.getBankNumber());
         }
 
         if(!iban.getAccountNumber().equals(account)) {
             Assert.assertEquals(account, iban.getAccountNumber());
-            //Assertions.assertEquals(account, iban.getAccountNumber());
         }
         Assert.assertTrue(true);
     }
